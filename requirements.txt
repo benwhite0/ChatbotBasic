@@ -1,3 +1,6 @@
 langchain==0.2.11
 langchain-community==0.2.10
 langchain-openai==0.1.17
+customtkinter
+python-dotenv
+openai

@@ -1,45 +1,39 @@
-# Customizable LangChain ChatBot with GUI
-This is a customisable and adaptable chatbot integrated with a user-friendly graphical interface. This project is designed to demonstrate a powerful tool that can be tailored for various applications and industries, perfect for businesses looking to enhance their customer interaction, automate responses, and streamline communication processes.
+# Modern Chatbot with Custom Tkinter GUI
 
-### Features
-##### Versatile ChatBot:
-At the core of this ChatBot that can be fine-tuned for specific tasks. Whether you need customer support, data retrieval, or any other automated interaction, this ChatBot can be trained to handle it efficiently.
-##### User-Friendly GUI: 
-Accompanying the ChatBot is a sleek, modern graphical user interface built with Tkinter. This interface is designed for ease of use, allowing for smooth interaction with the ChatBot.
-##### Customizable Interface:
-The GUI features customizable themes and settings, enabling it to match your company’s branding or personal aesthetic preferences.
-##### Dynamic Interaction: 
-Implements a real-time response system with a typing indicator, enhancing the interactive feel of the ChatBot.
-##### Multi-Purpose Utility: 
-Ideal for a variety of applications, from customer service and tech support to personal assistants and educational tools.
+A sleek, adaptable chatbot application featuring a modern graphical interface, animated typing indicator, and dynamic theme switching. Designed for ease of use, demonstration, and extension for a variety of applications such as customer support, personal assistants, and educational tools.
 
-### Installation
-To get started with the ChatBot, you will need Python installed on your system. Follow these steps to install and run the chatbot:
+## Features
+- **Modern GUI:** Built with CustomTkinter for a clean, professional look and smooth user experience.
+- **Animated Typing Indicator:** Shows when the bot is generating a response, enhancing interactivity.
+- **Dynamic Theme Switching:** Instantly switch between Light and Dark modes; all chat bubbles and UI elements update accordingly.
+- **OpenAI Integration:** Connects to OpenAI for intelligent, context-aware responses (requires your API key).
+- **Easy Customisation:** Modular codebase allows for straightforward changes to appearance, behaviour, and features.
 
-#### Clone the repository:
-git clone https://github.com/benwhite0/ChatbotBasic.git
+## Installation
+1. Ensure you have Python 3.8+ installed.
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/benwhite0/ChatbotBasic.git
+   cd ChatbotBasic
+   ```
+3. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-#### Navigate to the cloned directory:
-cd chatbot-gui
+## Usage
+1. Run the application:
+   ```sh
+   python main.py
+   ```
+2. Enter your OpenAI API key when prompted.
+3. Type your message and press "Send" or hit Enter to chat.
+4. Use the theme menu to switch between Light and Dark modes at any time.
 
+## Customisation
+- **Themes & Appearance:** Easily adjust colours and fonts in `gui.py`.
+- **Bot Behaviour:** Modify or extend logic in `chatbot.py`.
+- **Add Features:** The modular design allows for integration of new features such as voice input, advanced conversation memory, or external APIs.
 
-#### Install required dependencies:
-pip install -r requirements.txt
-
-
-#### Run the application:
-python chat_gui.py
-
-
-#### Usage
-Upon launching the application, you must first enter your API key, then you will see the ChatBot GUI. Type your message into the input field and press "Send" or hit "Enter" to receive a response from the ChatBot.
-
-#### Customization
-This ChatBot system is built with customization in mind. You can easily modify the following aspects:
-
-##### ChatBot Training: 
-Adapt the ChatBot’s responses by training it with datasets specific to your needs.
-##### GUI Colors and Fonts: 
-Customize the appearance of the GUI through the settings menu to better fit your visual style or branding.
-##### Adding Features: 
-The modular design allows for the integration of additional features such as voice recognition, more complex user interactions, and API integrations.
+## Licence
+This project is open source and available under the MIT Licence.
