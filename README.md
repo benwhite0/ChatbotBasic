@@ -1,4 +1,4 @@
-# Modern Chatbot with Custom Tkinter GUI
+# Modern Chatbot with Custom Tkinter GUI using Langchain
 
 A sleek, adaptable chatbot application featuring a modern graphical interface, animated typing indicator, and dynamic theme switching. Designed for ease of use, demonstration, and extension for a variety of applications such as customer support, personal assistants, and educational tools.
 
